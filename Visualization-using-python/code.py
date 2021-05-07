@@ -24,7 +24,7 @@ plt.xlabel('Education Status')
 plt.ylabel('Loan Status')
 plt.xticks(rotation = 45)
 
-#Step 4
+#Step4
 graduate = data[data['Education'] == 'Graduate']
 not_graduate = data[data['Education'] == 'Not Graduate']
 graduate.plot(kind ='density' ,label = 'Graduate')
